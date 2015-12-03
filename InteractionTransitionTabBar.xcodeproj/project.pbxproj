@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4660A5A31C0D90A800F5A710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660A5A21C0D90A800F5A710 /* main.m */; };
+		4660A5A61C0D90A800F5A710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660A5A51C0D90A800F5A710 /* AppDelegate.m */; };
+		4660A5AE1C0D90A800F5A710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4660A5AD1C0D90A800F5A710 /* Assets.xcassets */; };
+		4660A5B11C0D90A800F5A710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4660A5AF1C0D90A800F5A710 /* LaunchScreen.storyboard */; };
+		4660A5BC1C0D90A800F5A710 /* InteractionTransitionTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660A5BB1C0D90A800F5A710 /* InteractionTransitionTabBarTests.m */; };
+		4660A5C71C0D90A800F5A710 /* InteractionTransitionTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660A5C61C0D90A800F5A710 /* InteractionTransitionTabBarUITests.m */; };
+		4660A5D61C0D91A500F5A710 /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660A5D51C0D91A500F5A710 /* LTViewController.m */; };
+		4660A5DC1C0D936900F5A710 /* LTInteractionTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660A5DB1C0D936900F5A710 /* LTInteractionTransition.m */; };
+		4660A5DF1C0D93B900F5A710 /* LTInteractionTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660A5DE1C0D93B900F5A710 /* LTInteractionTabBarController.m */; };
+		4660A5E21C0D946600F5A710 /* LTScrollStyleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660A5E11C0D946600F5A710 /* LTScrollStyleAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4660A5B81C0D90A800F5A710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4660A5961C0D90A800F5A710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4660A59D1C0D90A800F5A710;
+			remoteInfo = InteractionTransitionTabBar;
+		};
+		4660A5C31C0D90A800F5A710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4660A5961C0D90A800F5A710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4660A59D1C0D90A800F5A710;
+			remoteInfo = InteractionTransitionTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4660A59E1C0D90A800F5A710 /* InteractionTransitionTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractionTransitionTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4660A5A21C0D90A800F5A710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4660A5A41C0D90A800F5A710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4660A5A51C0D90A800F5A710 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4660A5AD1C0D90A800F5A710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4660A5B01C0D90A800F5A710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4660A5B21C0D90A800F5A710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4660A5B71C0D90A800F5A710 /* InteractionTransitionTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractionTransitionTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4660A5BB1C0D90A800F5A710 /* InteractionTransitionTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractionTransitionTabBarTests.m; sourceTree = "<group>"; };
+		4660A5BD1C0D90A800F5A710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4660A5C21C0D90A800F5A710 /* InteractionTransitionTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractionTransitionTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4660A5C61C0D90A800F5A710 /* InteractionTransitionTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractionTransitionTabBarUITests.m; sourceTree = "<group>"; };
+		4660A5C81C0D90A800F5A710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4660A5D41C0D91A500F5A710 /* LTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTViewController.h; sourceTree = "<group>"; };
+		4660A5D51C0D91A500F5A710 /* LTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTViewController.m; sourceTree = "<group>"; };
+		4660A5DA1C0D936900F5A710 /* LTInteractionTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTInteractionTransition.h; path = ../LTInteractionTransition.h; sourceTree = "<group>"; };
+		4660A5DB1C0D936900F5A710 /* LTInteractionTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTInteractionTransition.m; path = ../LTInteractionTransition.m; sourceTree = "<group>"; };
+		4660A5DD1C0D93B900F5A710 /* LTInteractionTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTInteractionTabBarController.h; sourceTree = "<group>"; };
+		4660A5DE1C0D93B900F5A710 /* LTInteractionTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTInteractionTabBarController.m; sourceTree = "<group>"; };
+		4660A5E01C0D946600F5A710 /* LTScrollStyleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTScrollStyleAnimation.h; sourceTree = "<group>"; };
+		4660A5E11C0D946600F5A710 /* LTScrollStyleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTScrollStyleAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4660A59B1C0D90A800F5A710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4660A5B41C0D90A800F5A710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4660A5BF1C0D90A800F5A710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4660A5951C0D90A800F5A710 = {
+			isa = PBXGroup;
+			children = (
+				4660A5A01C0D90A800F5A710 /* InteractionTransitionTabBar */,
+				4660A5BA1C0D90A800F5A710 /* InteractionTransitionTabBarTests */,
+				4660A5C51C0D90A800F5A710 /* InteractionTransitionTabBarUITests */,
+				4660A59F1C0D90A800F5A710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4660A59F1C0D90A800F5A710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4660A59E1C0D90A800F5A710 /* InteractionTransitionTabBar.app */,
+				4660A5B71C0D90A800F5A710 /* InteractionTransitionTabBarTests.xctest */,
+				4660A5C21C0D90A800F5A710 /* InteractionTransitionTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4660A5A01C0D90A800F5A710 /* InteractionTransitionTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4660A5A41C0D90A800F5A710 /* AppDelegate.h */,
+				4660A5A51C0D90A800F5A710 /* AppDelegate.m */,
+				4660A5AD1C0D90A800F5A710 /* Assets.xcassets */,
+				4660A5AF1C0D90A800F5A710 /* LaunchScreen.storyboard */,
+				4660A5B21C0D90A800F5A710 /* Info.plist */,
+				4660A5A11C0D90A800F5A710 /* Supporting Files */,
+				4660A5D41C0D91A500F5A710 /* LTViewController.h */,
+				4660A5D51C0D91A500F5A710 /* LTViewController.m */,
+				4660A5DD1C0D93B900F5A710 /* LTInteractionTabBarController.h */,
+				4660A5DE1C0D93B900F5A710 /* LTInteractionTabBarController.m */,
+				4660A5DA1C0D936900F5A710 /* LTInteractionTransition.h */,
+				4660A5DB1C0D936900F5A710 /* LTInteractionTransition.m */,
+				4660A5E01C0D946600F5A710 /* LTScrollStyleAnimation.h */,
+				4660A5E11C0D946600F5A710 /* LTScrollStyleAnimation.m */,
+			);
+			path = InteractionTransitionTabBar;
+			sourceTree = "<group>";
+		};
+		4660A5A11C0D90A800F5A710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4660A5A21C0D90A800F5A710 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4660A5BA1C0D90A800F5A710 /* InteractionTransitionTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4660A5BB1C0D90A800F5A710 /* InteractionTransitionTabBarTests.m */,
+				4660A5BD1C0D90A800F5A710 /* Info.plist */,
+			);
+			path = InteractionTransitionTabBarTests;
+			sourceTree = "<group>";
+		};
+		4660A5C51C0D90A800F5A710 /* InteractionTransitionTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4660A5C61C0D90A800F5A710 /* InteractionTransitionTabBarUITests.m */,
+				4660A5C81C0D90A800F5A710 /* Info.plist */,
+			);
+			path = InteractionTransitionTabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4660A59D1C0D90A800F5A710 /* InteractionTransitionTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4660A5CB1C0D90A800F5A710 /* Build configuration list for PBXNativeTarget "InteractionTransitionTabBar" */;
+			buildPhases = (
+				4660A59A1C0D90A800F5A710 /* Sources */,
+				4660A59B1C0D90A800F5A710 /* Frameworks */,
+				4660A59C1C0D90A800F5A710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InteractionTransitionTabBar;
+			productName = InteractionTransitionTabBar;
+			productReference = 4660A59E1C0D90A800F5A710 /* InteractionTransitionTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4660A5B61C0D90A800F5A710 /* InteractionTransitionTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4660A5CE1C0D90A800F5A710 /* Build configuration list for PBXNativeTarget "InteractionTransitionTabBarTests" */;
+			buildPhases = (
+				4660A5B31C0D90A800F5A710 /* Sources */,
+				4660A5B41C0D90A800F5A710 /* Frameworks */,
+				4660A5B51C0D90A800F5A710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4660A5B91C0D90A800F5A710 /* PBXTargetDependency */,
+			);
+			name = InteractionTransitionTabBarTests;
+			productName = InteractionTransitionTabBarTests;
+			productReference = 4660A5B71C0D90A800F5A710 /* InteractionTransitionTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4660A5C11C0D90A800F5A710 /* InteractionTransitionTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4660A5D11C0D90A800F5A710 /* Build configuration list for PBXNativeTarget "InteractionTransitionTabBarUITests" */;
+			buildPhases = (
+				4660A5BE1C0D90A800F5A710 /* Sources */,
+				4660A5BF1C0D90A800F5A710 /* Frameworks */,
+				4660A5C01C0D90A800F5A710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4660A5C41C0D90A800F5A710 /* PBXTargetDependency */,
+			);
+			name = InteractionTransitionTabBarUITests;
+			productName = InteractionTransitionTabBarUITests;
+			productReference = 4660A5C21C0D90A800F5A710 /* InteractionTransitionTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4660A5961C0D90A800F5A710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "陈记权";
+				TargetAttributes = {
+					4660A59D1C0D90A800F5A710 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4660A5B61C0D90A800F5A710 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4660A59D1C0D90A800F5A710;
+					};
+					4660A5C11C0D90A800F5A710 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4660A59D1C0D90A800F5A710;
+					};
+				};
+			};
+			buildConfigurationList = 4660A5991C0D90A800F5A710 /* Build configuration list for PBXProject "InteractionTransitionTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4660A5951C0D90A800F5A710;
+			productRefGroup = 4660A59F1C0D90A800F5A710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4660A59D1C0D90A800F5A710 /* InteractionTransitionTabBar */,
+				4660A5B61C0D90A800F5A710 /* InteractionTransitionTabBarTests */,
+				4660A5C11C0D90A800F5A710 /* InteractionTransitionTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4660A59C1C0D90A800F5A710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4660A5B11C0D90A800F5A710 /* LaunchScreen.storyboard in Resources */,
+				4660A5AE1C0D90A800F5A710 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4660A5B51C0D90A800F5A710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4660A5C01C0D90A800F5A710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4660A59A1C0D90A800F5A710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4660A5A61C0D90A800F5A710 /* AppDelegate.m in Sources */,
+				4660A5A31C0D90A800F5A710 /* main.m in Sources */,
+				4660A5DF1C0D93B900F5A710 /* LTInteractionTabBarController.m in Sources */,
+				4660A5E21C0D946600F5A710 /* LTScrollStyleAnimation.m in Sources */,
+				4660A5D61C0D91A500F5A710 /* LTViewController.m in Sources */,
+				4660A5DC1C0D936900F5A710 /* LTInteractionTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4660A5B31C0D90A800F5A710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4660A5BC1C0D90A800F5A710 /* InteractionTransitionTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4660A5BE1C0D90A800F5A710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4660A5C71C0D90A800F5A710 /* InteractionTransitionTabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4660A5B91C0D90A800F5A710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4660A59D1C0D90A800F5A710 /* InteractionTransitionTabBar */;
+			targetProxy = 4660A5B81C0D90A800F5A710 /* PBXContainerItemProxy */;
+		};
+		4660A5C41C0D90A800F5A710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4660A59D1C0D90A800F5A710 /* InteractionTransitionTabBar */;
+			targetProxy = 4660A5C31C0D90A800F5A710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4660A5AF1C0D90A800F5A710 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4660A5B01C0D90A800F5A710 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4660A5C91C0D90A800F5A710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4660A5CA1C0D90A800F5A710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4660A5CC1C0D90A800F5A710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InteractionTransitionTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.leauto.com.InteractionTransitionTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4660A5CD1C0D90A800F5A710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InteractionTransitionTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.leauto.com.InteractionTransitionTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4660A5CF1C0D90A800F5A710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InteractionTransitionTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.leauto.com.InteractionTransitionTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractionTransitionTabBar.app/InteractionTransitionTabBar";
+			};
+			name = Debug;
+		};
+		4660A5D01C0D90A800F5A710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InteractionTransitionTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.leauto.com.InteractionTransitionTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractionTransitionTabBar.app/InteractionTransitionTabBar";
+			};
+			name = Release;
+		};
+		4660A5D21C0D90A800F5A710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InteractionTransitionTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.leauto.com.InteractionTransitionTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InteractionTransitionTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4660A5D31C0D90A800F5A710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InteractionTransitionTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.leauto.com.InteractionTransitionTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InteractionTransitionTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4660A5991C0D90A800F5A710 /* Build configuration list for PBXProject "InteractionTransitionTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4660A5C91C0D90A800F5A710 /* Debug */,
+				4660A5CA1C0D90A800F5A710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4660A5CB1C0D90A800F5A710 /* Build configuration list for PBXNativeTarget "InteractionTransitionTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4660A5CC1C0D90A800F5A710 /* Debug */,
+				4660A5CD1C0D90A800F5A710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4660A5CE1C0D90A800F5A710 /* Build configuration list for PBXNativeTarget "InteractionTransitionTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4660A5CF1C0D90A800F5A710 /* Debug */,
+				4660A5D01C0D90A800F5A710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4660A5D11C0D90A800F5A710 /* Build configuration list for PBXNativeTarget "InteractionTransitionTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4660A5D21C0D90A800F5A710 /* Debug */,
+				4660A5D31C0D90A800F5A710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4660A5961C0D90A800F5A710 /* Project object */;
+}
